@@ -52,7 +52,7 @@ const Home: React.FC = () => {
 
   return (
     <div className="container mx-auto p-8 h-screen flex flex-col">
-      <h1 className="text-4xl font-bold mb-4">JSON API Table Viewer</h1>
+      <h1 className="text-4xl font-bold mb-4">API Table Viewer</h1>
 
       <div className="mb-4">
         <label className="block mb-2">
@@ -90,7 +90,7 @@ const Home: React.FC = () => {
                 Save as PDF
               </button>
             </div>
-            <h2 className="text-2xl font-bold mb-2">Data Table</h2>
+            <h2 className="text-2xl font-bold mb-2">Table</h2>
             <div className="max-h-[60vh] overflow-y-auto outline">
               <table className="w-full border">
                 <thead className=" bg-white">
